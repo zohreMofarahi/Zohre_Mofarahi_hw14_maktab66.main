@@ -1,0 +1,2365 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="Npm%20vs%20Npx_files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>zohreh mofarahi</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>zohreh mofarahi</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>442</o:TotalTime>
+  <o:Created>2022-03-02T18:38:00Z</o:Created>
+  <o:LastSaved>2022-03-02T18:38:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>826</o:Words>
+  <o:Characters>4710</o:Characters>
+  <o:Lines>39</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5525</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="Npm%20vs%20Npx_files/themedata.thmx">
+<link rel=colorSchemeMapping href="Npm%20vs%20Npx_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>AR-SA</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"B Nazanin";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:178;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:8193 -2147483648 8 0 64 0;}
+@font-face
+	{font-family:"Open Sans";
+	mso-font-alt:"Open Sans";
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870161 1073750107 40 0 415 0;}
+@font-face
+	{font-family:Roboto;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1342185563 32 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:790587133;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1278540774 -1523386558 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-text:%1-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:1008488034;
+	mso-list-type:hybrid;
+	mso-list-template-ids:835746544 -1632763424 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-text:%1-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2
+	{mso-list-id:1484658459;
+	mso-list-type:hybrid;
+	mso-list-template-ids:835746544 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l2:level1
+	{mso-level-text:%1-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l3
+	{mso-list-id:1830291799;
+	mso-list-template-ids:447765590;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:39;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTable15Grid4Accent1
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:1;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	border:solid #8EAADB 1.0pt;
+	mso-border-themecolor:accent1;
+	mso-border-themetint:153;
+	mso-border-alt:solid #8EAADB .5pt;
+	mso-border-themecolor:accent1;
+	mso-border-themetint:153;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid #8EAADB;
+	mso-border-insideh-themecolor:accent1;
+	mso-border-insideh-themetint:153;
+	mso-border-insidev:.5pt solid #8EAADB;
+	mso-border-insidev-themecolor:accent1;
+	mso-border-insidev-themetint:153;
+	mso-para-margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+table.MsoTable15Grid4Accent1FirstRow
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:first-row;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#4472C4;
+	mso-tstyle-shading-themecolor:accent1;
+	mso-tstyle-border-top:.5pt solid #4472C4;
+	mso-tstyle-border-top-themecolor:accent1;
+	mso-tstyle-border-left:.5pt solid #4472C4;
+	mso-tstyle-border-left-themecolor:accent1;
+	mso-tstyle-border-bottom:.5pt solid #4472C4;
+	mso-tstyle-border-bottom-themecolor:accent1;
+	mso-tstyle-border-right:.5pt solid #4472C4;
+	mso-tstyle-border-right-themecolor:accent1;
+	mso-tstyle-border-insideh:cell-none;
+	mso-tstyle-border-insidev:cell-none;
+	color:white;
+	mso-themecolor:background1;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Grid4Accent1LastRow
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:last-row;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.5pt double #4472C4;
+	mso-tstyle-border-top-themecolor:accent1;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Grid4Accent1FirstCol
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:first-column;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Grid4Accent1LastCol
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:last-column;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTable15Grid4Accent1OddColumn
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:odd-column;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#D9E2F3;
+	mso-tstyle-shading-themecolor:accent1;
+	mso-tstyle-shading-themetint:51;}
+table.MsoTable15Grid4Accent1OddRow
+	{mso-style-name:"Grid Table 4 - Accent 1";
+	mso-table-condition:odd-row;
+	mso-style-priority:49;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#D9E2F3;
+	mso-tstyle-shading-themecolor:accent1;
+	mso-tstyle-shading-themetint:51;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:.5in;
+word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span dir=LTR style='font-size:27.0pt;line-height:107%;
+mso-bidi-language:FA'>Npm vs Npx</span><span lang=FA style='font-size:12.0pt;
+line-height:107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<div align=right>
+
+<table class=MsoTable15Grid4Accent1 dir=rtl border=1 cellspacing=0
+ cellpadding=0 style='border-collapse:collapse;border:none;mso-border-alt:solid #8EAADB .5pt;
+ mso-border-themecolor:accent1;mso-border-themetint:153;mso-yfti-tbllook:1184;
+ mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-table-dir:bidi'>
+ <tr style='mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #4472C4 1.0pt;
+  mso-border-themecolor:accent1;border-left:none;mso-border-top-alt:solid #4472C4 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #4472C4 .5pt;
+  mso-border-bottom-themecolor:accent1;mso-border-right-alt:solid #4472C4 .5pt;
+  mso-border-right-themecolor:accent1;background:#4472C4;mso-background-themecolor:
+  accent1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  5'><b><span dir=LTR style='font-size:29.0pt;color:white;mso-themecolor:background1;
+  mso-bidi-language:FA'>NPX</span></b><b><span lang=FA style='font-size:29.0pt;
+  font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+  minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+  mso-bidi-theme-font:minor-bidi;color:white;mso-themecolor:background1;
+  mso-bidi-language:FA'><o:p></o:p></span></b></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border:solid #4472C4 1.0pt;
+  mso-border-themecolor:accent1;border-right:none;mso-border-top-alt:solid #4472C4 .5pt;
+  mso-border-top-themecolor:accent1;mso-border-left-alt:solid #4472C4 .5pt;
+  mso-border-left-themecolor:accent1;mso-border-bottom-alt:solid #4472C4 .5pt;
+  mso-border-bottom-themecolor:accent1;background:#4472C4;mso-background-themecolor:
+  accent1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  1'><b><span dir=LTR style='font-size:29.0pt;color:white;mso-themecolor:background1;
+  mso-bidi-language:FA'>NPM<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:0'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:
+  accent1;mso-background-themetint:51;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  68'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;mso-bidi-language:FA'>&#1605;&#1582;&#1601;&#1601; </span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;mso-bidi-language:FA'>Node package execute</span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent1;
+  mso-background-themetint:51;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  64'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;mso-bidi-language:FA'>&#1605;&#1582;&#1601;&#1601; </span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;mso-bidi-language:FA'>Node package manager</span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  4'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'>&#1740;&#1705; &#1662;&#1705;&#1740;&#1580;
+  &#1605;&#1740;&#1578;&#1608;&#1575;&#1606;&#1583;
+  &#1576;&#1583;&#1608;&#1606; &#1575;&#1740;&#1606;&#1705;&#1607;
+  &#1606;&#1589;&#1576; &#1588;&#1608;&#1583; &#1606;&#1740;&#1586;
+  &#1575;&#1580;&#1585;&#1575; &#1588;&#1608;&#1583;. </span><span dir=LTR
+  style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+  FA'>Npx</span><span dir=RTL></span><span lang=FA style='font-size:14.0pt;
+  font-family:"B Nazanin";mso-bidi-language:FA'><span dir=RTL></span>
+  &#1740;&#1705;
+  &#1575;&#1580;&#1585;&#1575;&#1705;&#1606;&#1606;&#1583;&#1607;
+  &#1662;&#1705;&#1740;&#1580; </span><span dir=LTR style='font-size:14.0pt;
+  mso-bidi-font-family:"B Nazanin";mso-bidi-language:FA'>npm</span><span
+  dir=RTL></span><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+  mso-bidi-language:FA'><span dir=RTL></span> &#1575;&#1587;&#1578;.
+  &#1576;&#1606;&#1575;&#1576;&#1585;&#1575;&#1740;&#1606;
+  &#1575;&#1711;&#1585; &#1607;&#1585; &#1662;&#1705;&#1740;&#1580;&#1740;
+  &#1606;&#1589;&#1576; &#1606;&#1588;&#1583;&#1607;
+  &#1576;&#1575;&#1588;&#1583; &#1576;&#1607; &#1591;&#1608;&#1585;
+  &#1575;&#1578;&#1608;&#1605;&#1575;&#1578;&#1740;&#1705;
+  &#1606;&#1589;&#1576; &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;.<o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:36.75pt;direction:rtl;unicode-bidi:embed'><span
+  lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'>&#1575;&#1711;&#1585; &#1576;&#1582;&#1608;&#1575;&#1607;&#1740;&#1583;
+  &#1662;&#1705;&#1740;&#1580;&#1740; &#1585;&#1575; &#1575;&#1586;
+  &#1591;&#1585;&#1740;&#1602; </span><span dir=LTR style='font-size:14.0pt;
+  mso-bidi-font-family:"B Nazanin";mso-bidi-language:FA'>npm</span><span
+  dir=RTL></span><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+  mso-bidi-language:FA'><span dir=RTL></span> &#1575;&#1580;&#1585;&#1575;
+  &#1705;&#1606;&#1740;&#1583; &#1576;&#1575;&#1740;&#1583; &#1570;&#1606;
+  &#1585;&#1575; &#1583;&#1585; &#1601;&#1575;&#1740;&#1604; </span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+  FA'>package.json</span><span dir=RTL></span><span lang=FA style='font-size:
+  14.0pt;font-family:"B Nazanin";mso-bidi-language:FA'><span dir=RTL></span>
+  &#1605;&#1588;&#1582;&#1589; &#1705;&#1606;&#1740;&#1583; &#1608;
+  &#1570;&#1606; &#1585;&#1575; &#1576;&#1607; &#1591;&#1608;&#1585;
+  &#1605;&#1581;&#1604;&#1740; &#1606;&#1589;&#1576;
+  &#1705;&#1606;&#1740;&#1583;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  68'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:white;mso-background-themecolor:background1;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  64'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  4'><span dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";
+  mso-bidi-language:FA'>Npx</span><span dir=RTL></span><span lang=FA
+  style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:FA'><span
+  dir=RTL></span> &#1575;&#1576;&#1586;&#1575;&#1585;&#1740;
+  &#1575;&#1587;&#1578; &#1705;&#1607; &#1576;&#1585;&#1575;&#1740;
+  &#1575;&#1580;&#1585;&#1575;&#1740; &#1662;&#1705;&#1740;&#1580;
+  &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;.<o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:32.6pt;direction:rtl;unicode-bidi:embed'><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+  FA'>Npm</span><span dir=RTL></span><span lang=FA style='font-size:14.0pt;
+  font-family:"B Nazanin";mso-bidi-language:FA'><span dir=RTL></span>
+  &#1575;&#1576;&#1586;&#1575;&#1585;&#1740; &#1575;&#1587;&#1578;
+  &#1705;&#1607; &#1576;&#1585;&#1575;&#1740; &#1606;&#1589;&#1576;
+  &#1662;&#1705;&#1740;&#1580;
+  &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  68'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;mso-bidi-language:FA'>&#1662;&#1705;&#1740;&#1580;&#8204;&#1607;&#1575;&#1740;&#1740;
+  &#1705;&#1607; &#1575;&#1586; </span><span dir=LTR style='font-size:14.0pt;
+  mso-bidi-font-family:"B Nazanin";color:black;mso-color-alt:windowtext;
+  mso-bidi-language:FA'>NPX</span><span dir=RTL></span><span lang=FA
+  style='font-size:14.0pt;font-family:"B Nazanin";color:black;mso-color-alt:
+  windowtext;mso-bidi-language:FA'><span dir=RTL></span>
+  &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+  &#1605;&#1740;&#1705;&#1606;&#1606;&#1583; &#1576;&#1607;
+  &#1589;&#1608;&#1585;&#1578; &#1587;&#1585;&#1575;&#1587;&#1585;&#1740;
+  &#1606;&#1589;&#1576; &#1606;&#1605;&#1740;&#8204;&#1588;&#1608;&#1606;&#1583;
+  &#1608; &#1575;&#1605;&#1705;&#1575;&#1606;
+  &#1578;&#1583;&#1575;&#1582;&#1604; &#1583;&#1585;
+  &#1583;&#1585;&#1575;&#1586; &#1605;&#1583;&#1578;
+  &#1608;&#1580;&#1608;&#1583; &#1606;&#1583;&#1575;&#1585;&#1583;.</span><span
+  lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:white;mso-background-themecolor:background1;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:32.6pt;direction:rtl;unicode-bidi:embed;
+  mso-yfti-cnfc:64'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+  color:black;mso-color-alt:windowtext;mso-bidi-language:FA'>&#1662;&#1705;&#1740;&#1580;&#8204;&#1607;&#1575;&#1740;&#1740;
+  &#1705;&#1607; &#1575;&#1586; </span><span dir=LTR style='font-size:14.0pt;
+  mso-bidi-font-family:"B Nazanin";color:black;mso-color-alt:windowtext;
+  mso-bidi-language:FA'>NPM</span><span dir=RTL></span><span lang=FA
+  style='font-size:14.0pt;font-family:"B Nazanin";color:black;mso-color-alt:
+  windowtext;mso-bidi-language:FA'><span dir=RTL></span>
+  &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1605;&#1740;&#8204;&#1705;&#1606;&#1606;&#1583;&#1548;
+  &#1576;&#1607; &#1589;&#1608;&#1585;&#1578;
+  &#1587;&#1585;&#1575;&#1587;&#1585;&#1740; &#1606;&#1589;&#1576;
+  &#1605;&#1740;&#8204;&#1588;&#1608;&#1606;&#1583; &#1608;
+  &#1575;&#1605;&#1705;&#1575;&#1606; &#1578;&#1583;&#1575;&#1582;&#1604;
+  &#1583;&#1585; &#1583;&#1585;&#1575;&#1586; &#1605;&#1583;&#1578;
+  &#1608;&#1580;&#1608;&#1583; &#1583;&#1575;&#1585;&#1583;. </span><span
+  lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  4'><span dir=LTR style='font-size:14.0pt;font-family:"Open Sans",sans-serif;
+  mso-bidi-font-family:"B Nazanin";color:#212529;background:white'>npx </span><span
+  lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+  "Open Sans";mso-hansi-font-family:"Open Sans";color:#212529;background:white'>&#1588;&#1605;&#1575;
+  &#1585;&#1575; &#1605;&#1581;&#1583;&#1608;&#1583; &#1576;&#1607;
+  &#1662;&#1705;&#1740;&#1580;&#8204;&#1607;&#1575;&#1740;
+  &#1575;&#1606;&#1578;&#1588;&#1575;&#1585;
+  &#1740;&#1575;&#1601;&#1578;&#1607; &#1585;&#1608;&#1740;
+  &#1585;&#1580;&#1740;&#1587;&#1578;&#1585;&#1740;</span><span dir=LTR></span><span
+  dir=LTR style='font-size:14.0pt;font-family:"Open Sans",sans-serif;
+  mso-bidi-font-family:"B Nazanin";color:#212529;background:white'><span
+  dir=LTR></span> npm </span><span lang=AR-SA style='font-size:14.0pt;
+  font-family:"B Nazanin";mso-ascii-font-family:"Open Sans";mso-hansi-font-family:
+  "Open Sans";color:#212529;background:white'>&#1606;&#1605;&#1740;&#8204;&#1705;&#1606;&#1583;</span><span
+  dir=LTR></span><span dir=LTR style='font-size:14.0pt;font-family:"Open Sans",sans-serif;
+  mso-bidi-font-family:"B Nazanin";color:#212529;background:white'><span
+  dir=LTR></span>.</span><span lang=FA style='font-size:14.0pt;font-family:
+  "B Nazanin";mso-bidi-language:FA'><o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:32.6pt;direction:rtl;unicode-bidi:embed'><span
+  lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;background:white;mso-background-themecolor:
+  background1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  68'><span lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";
+  mso-ascii-font-family:"Open Sans";mso-hansi-font-family:"Open Sans";
+  color:#212529;background:white'>&#1576;&#1575;
+  &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1575;&#1586; @
+  &#1605;&#1740;&#8204;&#1578;&#1608;&#1575;&#1606;
+  &#1575;&#1602;&#1583;&#1575;&#1605; &#1576;&#1607;
+  &#1578;&#1593;&#1740;&#1740;&#1606; &#1606;&#1587;&#1582;&#1607; &#1608;
+  &#1578;&#1585;&#1705;&#1740;&#1576; &#1705;&#1585;&#1583;&#1606;
+  &#1570;&#1606;&#8204;&#1607;&#1575; &#1576;&#1575;
+  &#1662;&#1705;&#1740;&#1580;</span><span dir=LTR></span><span dir=LTR
+  style='font-size:14.0pt;font-family:"Open Sans",sans-serif;mso-bidi-font-family:
+  "B Nazanin";color:#212529;background:white'><span dir=LTR></span> npm </span><span
+  lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+  "Open Sans";mso-hansi-font-family:"Open Sans";color:#212529;background:white'>&#1583;&#1585;</span><span
+  dir=LTR></span><span dir=LTR style='font-size:14.0pt;font-family:"Open Sans",sans-serif;
+  mso-bidi-font-family:"B Nazanin";color:#212529;background:white'><span
+  dir=LTR></span> node </span><span lang=AR-SA style='font-size:14.0pt;
+  font-family:"B Nazanin";mso-ascii-font-family:"Open Sans";mso-hansi-font-family:
+  "Open Sans";color:#212529;background:white'>&#1705;&#1585;&#1583;.</span><span
+  dir=LTR style='font-size:14.0pt;font-family:"Open Sans",sans-serif;
+  mso-bidi-font-family:"B Nazanin";color:#212529;background:white'><o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;background:white;mso-background-themecolor:background1;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:32.6pt;direction:rtl;unicode-bidi:embed;
+  mso-yfti-cnfc:64'><span lang=FA style='font-size:14.0pt;font-family:"B Nazanin";
+  mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
+  <td width=312 valign=top style='width:233.75pt;border:solid #8EAADB 1.0pt;
+  mso-border-themecolor:accent1;mso-border-themetint:153;border-top:none;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent1;
+  mso-border-top-themetint:153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+  accent1;mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center dir=RTL style='margin-bottom:0in;text-align:
+  center;line-height:normal;direction:rtl;unicode-bidi:embed;mso-yfti-cnfc:
+  4'><span dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";
+  color:black;mso-color-alt:windowtext;background:white'>. npx </span><span
+  lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;background:white'>&#1576;&#1607;
+  &#1588;&#1605;&#1575; &#1705;&#1605;&#1705; &#1605;&#1740;&#8204;&#1705;&#1606;&#1583;
+  &#1578;&#1575; &#1575;&#1586; &#1608;&#1585;&#1688;&#1606;&#8204;&#1587;&#1575;&#1586;&#1740;
+  &#1548; &#1605;&#1588;&#1705;&#1604;&#1575;&#1578;</span><span dir=LTR></span><span
+  dir=LTR style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;background:white'><span dir=LTR></span> dependency </span><span
+  lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;background:white'>&#1607;&#1575; &#1608;
+  &#1606;&#1589;&#1576; &#1662;&#1705;&#1740;&#1580;&#8204;&#1607;&#1575;&#1740;
+  &#1594;&#1740;&#1585;&#1590;&#1585;&#1608;&#1585;&#1740;&#1548;
+  &#1705;&#1607; &#1601;&#1602;&#1591; &#1605;&#1740;&#8204;&#1582;&#1608;&#1575;&#1607;&#1740;&#1605;
+  &#1570;&#1606;&#8204;&#1607;&#1575; &#1585;&#1575;
+  &#1575;&#1605;&#1578;&#1581;&#1575;&#1606;
+  &#1705;&#1606;&#1740;&#1605;&#1548;
+  &#1580;&#1604;&#1608;&#1711;&#1740;&#1585;&#1740;
+  &#1705;&#1606;&#1740;&#1605;</span><span dir=LTR></span><span dir=LTR
+  style='font-size:14.0pt;mso-bidi-font-family:"B Nazanin";color:black;
+  mso-color-alt:windowtext;background:white'><span dir=LTR></span>.</span><span
+  lang=AR-SA style='font-size:14.0pt;font-family:"B Nazanin";mso-ascii-font-family:
+  "Open Sans";mso-hansi-font-family:"Open Sans";color:#212529;background:white'><o:p></o:p></span></p>
+  </td>
+  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
+  solid #8EAADB 1.0pt;mso-border-left-themecolor:accent1;mso-border-left-themetint:
+  153;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent1;
+  mso-border-bottom-themetint:153;border-right:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent1;mso-border-top-themetint:153;mso-border-right-alt:
+  solid #8EAADB .5pt;mso-border-right-themecolor:accent1;mso-border-right-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent1;
+  mso-border-themetint:153;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal dir=RTL style='margin-bottom:0in;text-align:right;
+  line-height:normal;tab-stops:32.6pt;direction:rtl;unicode-bidi:embed'><span
+  lang=FA style='font-size:14.0pt;font-family:"B Nazanin";mso-bidi-language:
+  FA'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span dir=LTR style='font-size:12.0pt;line-height:107%;
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'>&#1605;&#1606;&#1575;&#1576;&#1593;:<o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/</span></a><span
+lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://roocket.ir/articles/yes-its-npx-not-npm-the-difference-explained"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://roocket.ir/articles/yes-its-npx-not-npm-the-difference-explained</span></a><span
+lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><a href="https://blog.faradars.org/node-js-tutorial-part-5/"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://blog.faradars.org/node-js-tutorial-part-5/</span></a><span
+lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://virgool.io/@happyycodee/comment/nitwv8bj4dajqqr"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://virgool.io/@happyycodee/comment/nitwv8bj4dajqqr</span></a><span
+lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=FA dir=RTL style='font-size:12.0pt;line-height:
+107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:17.0pt;line-height:
+107%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin"'>&#1605;&#1601;&#1607;&#1608;&#1605;</span><span
+dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:17.0pt;line-height:
+107%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin"'><span dir=LTR></span>
+</span><span dir=LTR style='font-size:17.0pt;line-height:107%;font-family:"Times New Roman",serif;
+mso-bidi-font-family:"B Nazanin"'>component </span><span lang=AR-SA
+style='font-size:17.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin"'>&#1608;</span><span dir=LTR></span><span lang=AR-SA dir=LTR
+style='font-size:17.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+"B Nazanin"'><span dir=LTR></span> </span><span dir=LTR style='font-size:17.0pt;
+line-height:107%;font-family:"Times New Roman",serif;mso-bidi-font-family:"B Nazanin"'>state
+</span><span lang=AR-SA style='font-size:17.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:"B Nazanin"'>&#1583;&#1585; </span><span
+dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:17.0pt;line-height:
+107%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin"'><span dir=LTR></span><span
+style='mso-spacerun:yes'> </span></span><span dir=LTR style='font-size:17.0pt;
+line-height:107%;font-family:"Times New Roman",serif;mso-bidi-font-family:"B Nazanin"'>react<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:3.0pt;line-height:
+107%;font-family:"B Nazanin";mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'>Components</span><span lang=AR-SA style='font-size:12.0pt;line-height:
+107%;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin";
+mso-bidi-language:FA'>&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;&#8204;&#1607;&#1575;
+&#1705;&#1583;&#1607;&#1575;&#1740; &#1605;&#1587;&#1578;&#1602;&#1604; &#1608;
+&#1602;&#1575;&#1576;&#1604; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1605;&#1580;&#1583;&#1583; &#1607;&#1587;&#1578;&#1606;&#1583;.
+&#1570;&#1606;&#8204;&#1607;&#1575; &#1607;&#1605;&#1575;&#1606;
+&#1607;&#1583;&#1601; &#1578;&#1608;&#1575;&#1576;&#1593;
+&#1580;&#1575;&#1608;&#1575; &#1575;&#1587;&#1705;&#1585;&#1740;&#1662;&#1578;
+&#1585;&#1575; &#1575;&#1606;&#1580;&#1575;&#1605; &#1605;&#1740;&#8204;&#1583;&#1607;&#1606;&#1583;
+&#1576;&#1575; &#1575;&#1740;&#1606; &#1578;&#1601;&#1575;&#1608;&#1578;
+&#1705;&#1607; &#1576;&#1607; &#1589;&#1608;&#1585;&#1578;
+&#1575;&#1740;&#1586;&#1608;&#1604;&#1607; &#1705;&#1575;&#1585; &#1605;&#1740;&#8204;&#1705;&#1606;&#1606;&#1583;
+&#1608; </span><span dir=LTR style='font-size:12.0pt;line-height:107%;
+mso-bidi-font-family:"B Nazanin";mso-bidi-language:FA'>html</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"B Nazanin";mso-bidi-language:FA'><span dir=RTL></span>
+&#1576;&#1585;&#1605;&#1740;&#8204;&#1711;&#1585;&#1583;&#1575;&#1606;&#1606;&#1583;.
+</span><span dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;
+mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:white'>Components </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1576;&#1607; &#1588;&#1605;&#1575;
+&#1575;&#1580;&#1575;&#1586;&#1607; &#1605;&#1740; &#1583;&#1607;&#1583;</span><span
+dir=LTR></span><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'><span dir=LTR></span> UI </span><span lang=AR-SA style='font-size:13.0pt;
+line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:Roboto;
+mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1585;&#1575;
+&#1576;&#1607; &#1589;&#1608;&#1585;&#1578; &#1605;&#1587;&#1578;&#1602;&#1604;
+&#1578;&#1602;&#1587;&#1740;&#1605; &#1705;&#1606;&#1740;&#1583;&#1548;
+&#1583;&#1585;&#1605;&#1608;&#1585;&#1583; &#1607;&#1585;</span><span dir=LTR></span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span> Components </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1576;&#1607; &#1602;&#1591;&#1593;&#1575;&#1578;
+&#1602;&#1575;&#1576;&#1604; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1605;&#1580;&#1583;&#1583; &#1608; &#1607;&#1585;&#1602;&#1591;&#1593;&#1607;
+&#1580;&#1583;&#1575; &#1588;&#1583;&#1607; &#1601;&#1705;&#1585;
+&#1705;&#1606;&#1740;&#1583;</span><span dir=LTR></span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>.</span><span
+dir=RTL></span><span style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><span dir=RTL></span> <span lang=AR-SA>&#1575;&#1586;
+&#1606;&#1592;&#1585; &#1605;&#1601;&#1607;&#1608;&#1605;&#1740;&#1548; </span></span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>components </span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1605;&#1575;&#1606;&#1606;&#1583;</span><span
+dir=LTR></span><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'><span dir=LTR></span> functions </span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1607;&#1575;
+&#1583;&#1585;</span><span dir=LTR></span><span dir=LTR style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-bidi-font-family:"B Nazanin";
+color:#4B4B4B;background:white'><span dir=LTR></span> JavaScript </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1607;&#1587;&#1578;&#1606;&#1583;</span><span dir=LTR></span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>.</span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1585;&#1740; &#1575;&#1705;&#1578; &#1740;&#1705;
+&#1604;&#1575;&#1740;&#1576;&#1585;&#1585;&#1740;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1576;&#1740;&#1587;
+&#1575;&#1587;&#1578;. &#1576;&#1607; &#1575;&#1740;&#1606;
+&#1605;&#1593;&#1606;&#1740; &#1705;&#1607; &#1607;&#1585;
+&#1602;&#1587;&#1605;&#1578; &#1575;&#1586; &#1608;&#1576; &#1587;&#1575;&#1740;&#1578;
+&#1585;&#1575; &#1576;&#1607; &#1589;&#1608;&#1585;&#1578;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1607;&#1575;&#1740;
+&#1580;&#1583;&#1575;&#1711;&#1575;&#1606;&#1607; &#1583;&#1585;
+&#1606;&#1592;&#1585; &#1605;&#1740; &#1711;&#1740;&#1585;&#1740;&#1605;
+&#1608; &#1587;&#1662;&#1587; &#1570;&#1606; &#1607;&#1575; &#1585;&#1575;
+&#1583;&#1585; &#1705;&#1606;&#1575;&#1585; &#1607;&#1605;&#1583;&#1740;&#1711;&#1585;
+&#1602;&#1585;&#1575;&#1585; &#1605;&#1740; &#1583;&#1607;&#1740;&#1605;
+&#1608; &#1576;&#1575; &#1583;&#1585; &#1705;&#1606;&#1575;&#1585;
+&#1607;&#1605; &#1602;&#1585;&#1575;&#1585; &#1583;&#1575;&#1583;&#1606;
+&#1570;&#1606; &#1607;&#1575; &#1608;&#1576; &#1587;&#1575;&#1740;&#1578;
+&#1605;&#1608;&#1585;&#1583; &#1606;&#1592;&#1585;&#1605;&#1575;&#1606;
+&#1587;&#1575;&#1582;&#1578;&#1607; &#1605;&#1740; &#1588;&#1608;&#1583;</span><span
+dir=LTR></span><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'><span dir=LTR></span>.</span><span lang=AR-SA style='font-size:13.0pt;
+line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:Roboto;
+mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1576;&#1607;
+&#1593;&#1606;&#1608;&#1575;&#1606; &#1605;&#1579;&#1575;&#1604;
+&#1575;&#1711;&#1585; &#1576;&#1582;&#1608;&#1575;&#1607;&#1740;&#1605;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1607;&#1575;&#1740;
+&#1589;&#1601;&#1581;&#1607; &#1575;&#1589;&#1604;&#1740; &#1740;&#1705;
+&#1601;&#1585;&#1608;&#1588;&#1711;&#1575;&#1607; &#1575;&#1740;&#1606;&#1578;&#1585;&#1606;&#1578;&#1740;
+&#1585;&#1575; &#1583;&#1585; &#1606;&#1592;&#1585; &#1576;&#1711;&#1740;&#1585;&#1740;&#1605;&#1548;
+&#1605;&#1740; &#1578;&#1608;&#1575;&#1606; &#1576;&#1607; </span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>Header</span><span dir=RTL></span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><span dir=RTL></span>&#1548; </span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>NavBar</span><span dir=RTL></span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><span dir=RTL></span>&#1548; </span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>Products</span><span dir=RTL></span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><span dir=RTL></span>&#1548; </span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>PopularProducts</span><span
+dir=RTL></span><span lang=AR-SA style='font-size:13.0pt;line-height:107%;
+font-family:"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:
+Roboto;color:#4B4B4B;background:white'><span dir=RTL></span>&#1548; </span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'>Footer</span><span dir=RTL></span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'><span dir=RTL></span> &#1608; </span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"Arial",sans-serif;
+color:#4B4B4B;background:white'>…</span><span lang=AR-SA style='font-size:13.0pt;
+line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:Roboto;
+mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'> &#1575;&#1588;&#1575;&#1585;&#1607;
+&#1705;&#1585;&#1583;.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1586;&#1605;&#1575;&#1606;&#1740;
+&#1705;&#1607; &#1588;&#1605;&#1575; &#1662;&#1585;&#1608;&#1688;&#1607;
+&#1582;&#1608;&#1583;&#1578;&#1575;&#1606; &#1585;&#1575; &#1576;&#1607;
+&#1705;&#1605;&#1705; &#1585;&#1740; &#1575;&#1705;&#1578; &#1576;&#1607;
+&#1589;&#1608;&#1585;&#1578;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1576;&#1740;&#1587;
+&#1578;&#1608;&#1587;&#1593;&#1607; &#1605;&#1740; &#1583;&#1607;&#1740;&#1583;&#1548;
+&#1575;&#1711;&#1585; &#1602;&#1587;&#1605;&#1578;&#1740; &#1575;&#1586;
+&#1608;&#1576; &#1587;&#1575;&#1740;&#1578; &#1588;&#1605;&#1575;
+&#1605;&#1588;&#1705;&#1604;&#1740; &#1583;&#1575;&#1588;&#1578;&#1607;
+&#1576;&#1575;&#1588;&#1583; &#1583;&#1585; &#1605;&#1583;&#1578;
+&#1586;&#1605;&#1575;&#1606; &#1705;&#1605;&#1740; &#1605;&#1740;
+&#1578;&#1608;&#1575;&#1606;&#1740;&#1583; &#1605;&#1578;&#1608;&#1580;&#1607;
+&#1588;&#1608;&#1740;&#1583; &#1705;&#1607; &#1605;&#1588;&#1705;&#1604;
+&#1605;&#1608;&#1580;&#1608;&#1583; &#1583;&#1585; &#1705;&#1583;&#1575;&#1605;
+&#1740;&#1705; &#1575;&#1586;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1607;&#1575;
+&#1585;&#1582; &#1583;&#1575;&#1583;&#1607; &#1575;&#1587;&#1578; &#1608;
+&#1576;&#1607; &#1585;&#1575;&#1581;&#1578;&#1740; &#1605;&#1740;
+&#1578;&#1608;&#1575;&#1606;&#1740;&#1583; &#1570;&#1606; &#1585;&#1575;
+&#1601;&#1740;&#1705;&#1587; &#1705;&#1606;&#1740;&#1583;.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1605;&#1586;&#1575;&#1740;&#1575;&#1740; &#1576;&#1593;&#1583;&#1740;
+&#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1575;&#1586;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1575;&#1740;&#1606;
+&#1575;&#1587;&#1578; &#1705;&#1607; &#1588;&#1605;&#1575; &#1605;&#1740;
+&#1578;&#1608;&#1575;&#1606;&#1740;&#1583; &#1662;&#1585;&#1608;&#1688;&#1607;
+&#1582;&#1608;&#1583;&#1578;&#1575;&#1606; &#1585;&#1575; &#1576;&#1575;
+&#1705;&#1606;&#1578;&#1585;&#1604; &#1576;&#1575;&#1604;&#1575;&#1578;&#1585;
+&#1578;&#1608;&#1587;&#1593;&#1607; &#1583;&#1607;&#1740;&#1583; &#1608;
+&#1605;&#1583;&#1740;&#1585;&#1740;&#1578;
+&#1576;&#1740;&#1588;&#1578;&#1585;&#1740; &#1585;&#1608;&#1740;
+&#1662;&#1585;&#1608;&#1688;&#1607; &#1605;&#1608;&#1585;&#1583;
+&#1606;&#1592;&#1585; &#1583;&#1575;&#1588;&#1578;&#1607;
+&#1576;&#1575;&#1588;&#1740;&#1583;</span><span dir=LTR></span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1576;&#1607;
+&#1593;&#1606;&#1608;&#1575;&#1606; &#1605;&#1579;&#1575;&#1604;
+&#1601;&#1585;&#1590; &#1705;&#1606;&#1740;&#1583; &#1576;&#1593;&#1583;
+&#1575;&#1586; &#1605;&#1583;&#1578; &#1607;&#1575; &#1575;&#1586;
+&#1578;&#1608;&#1587;&#1593;&#1607; &#1662;&#1585;&#1608;&#1688;&#1607;
+&#1602;&#1589;&#1583; &#1583;&#1575;&#1585;&#1740;&#1583;
+&#1601;&#1740;&#1670;&#1585;&#1740; &#1585;&#1575; &#1576;&#1607;
+&#1662;&#1585;&#1608;&#1688;&#1607; &#1582;&#1608;&#1583;&#1578;&#1575;&#1606;
+&#1575;&#1590;&#1575;&#1601;&#1607; &#1705;&#1606;&#1740;&#1583;.
+&#1583;&#1585; &#1575;&#1740;&#1606; &#1589;&#1608;&#1585;&#1578;
+&#1576;&#1607; &#1585;&#1575;&#1581;&#1578;&#1740; &#1608; &#1583;&#1585;
+&#1605;&#1583;&#1578; &#1586;&#1605;&#1575;&#1606; &#1705;&#1605;
+&#1605;&#1740; &#1578;&#1608;&#1575;&#1606;&#1740;&#1583;
+&#1601;&#1740;&#1670;&#1585; &#1605;&#1608;&#1585;&#1583; &#1606;&#1592;&#1585;&#1578;&#1575;&#1606;
+&#1585;&#1575; &#1576;&#1607; &#1662;&#1585;&#1608;&#1688;&#1607;
+&#1605;&#1608;&#1585;&#1583; &#1606;&#1592;&#1585;
+&#1575;&#1590;&#1575;&#1601;&#1607; &#1705;&#1606;&#1740;&#1583;</span><span
+dir=LTR></span><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'><span dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1605;&#1586;&#1575;&#1740;&#1575;&#1740;
+&#1576;&#1593;&#1583;&#1740; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1575;&#1586; &#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1602;&#1575;&#1576;&#1604;&#1740;&#1578; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1605;&#1580;&#1583;&#1583; &#1608; &#1583;&#1585;
+&#1606;&#1578;&#1740;&#1580;&#1607; &#1705;&#1575;&#1607;&#1588;
+&#1581;&#1580;&#1605; &#1587;&#1608;&#1585;&#1587; &#1705;&#1583;
+&#1662;&#1585;&#1608;&#1688;&#1607; &#1575;&#1587;&#1578;.
+&#1588;&#1605;&#1575; &#1605;&#1740; &#1578;&#1608;&#1575;&#1606;&#1740;&#1583;
+&#1740;&#1705; &#1602;&#1587;&#1605;&#1578; &#1575;&#1586; &#1608;&#1576;
+&#1587;&#1575;&#1740;&#1578; &#1585;&#1575; &#1740;&#1705; &#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1583;&#1585; &#1606;&#1592;&#1585; &#1711;&#1585;&#1601;&#1578;&#1607;
+&#1608; &#1570;&#1606; &#1585;&#1575; &#1670;&#1606;&#1583;&#1740;&#1606;
+&#1576;&#1575;&#1585; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1705;&#1606;&#1740;&#1583;</span><span dir=LTR></span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;
+color:#4B4B4B;background:white'>&#1575;&#1711;&#1585;
+&#1576;&#1582;&#1608;&#1575;&#1607;&#1740;&#1605; &#1740;&#1705;
+&#1606;&#1578;&#1740;&#1580;&#1607; &#1711;&#1740;&#1585;&#1740; &#1608;
+&#1580;&#1605;&#1593; &#1576;&#1606;&#1583;&#1740; &#1705;&#1604;&#1740;
+&#1583;&#1575;&#1588;&#1578;&#1607; &#1576;&#1575;&#1588;&#1740;&#1605;&#1548;
+&#1605;&#1740; &#1578;&#1608;&#1575;&#1606; &#1711;&#1601;&#1578;
+&#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1575;&#1586;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1605;&#1586;&#1575;&#1740;&#1575;&#1740;&#1740;
+&#1605;&#1579;&#1604;</span><span dir=LTR></span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>:<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='margin-right:.5in;text-align:justify;
+text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:list .5in;direction:rtl;
+unicode-bidi:embed'><![if !supportLists]><span style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#4B4B4B'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=RTL></span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1578;&#1608;&#1587;&#1593;&#1607;
+&#1608; &#1605;&#1583;&#1740;&#1585;&#1740;&#1578; &#1576;&#1607;&#1578;&#1585;</span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='margin-right:.5in;text-align:justify;
+text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:list .5in;direction:rtl;
+unicode-bidi:embed'><![if !supportLists]><span style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#4B4B4B'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=RTL></span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1583;&#1740;&#1576;&#1575;&#1711;&#1740;&#1606;&#1711;
+&#1585;&#1575;&#1581;&#1578; &#1578;&#1585;</span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='margin-right:.5in;text-align:justify;
+text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:list .5in;direction:rtl;
+unicode-bidi:embed'><![if !supportLists]><span style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#4B4B4B'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=RTL></span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1662;&#1585;&#1601;&#1608;&#1585;&#1605;&#1606;&#1587;
+&#1576;&#1607;&#1578;&#1585;</span><span dir=LTR style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-bidi-font-family:"B Nazanin";
+color:#4B4B4B;background:white'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='margin-right:.5in;text-align:justify;
+text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:list .5in;direction:rtl;
+unicode-bidi:embed'><![if !supportLists]><span style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:
+Roboto;color:#4B4B4B'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=RTL></span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1578;&#1587;&#1578;
+&#1606;&#1608;&#1740;&#1587;&#1740; &#1585;&#1575;&#1581;&#1578; &#1578;&#1585;</span><span
+dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:13.0pt;line-height:
+107%;font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;
+background:white'><span dir=LTR></span> </span><span lang=AR-SA
+style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";mso-ascii-font-family:
+Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;background:white'>&#1608;</span><span
+dir=LTR></span><span dir=LTR style='font-size:13.0pt;line-height:107%;
+font-family:Roboto;mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:
+white'><span dir=LTR></span> …<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center dir=RTL style='margin-right:.5in;text-align:
+center;direction:rtl;unicode-bidi:embed'><span dir=LTR style='font-size:13.0pt;
+line-height:107%;font-family:Roboto;mso-bidi-font-family:"B Nazanin";
+color:#4B4B4B;background:white'>State<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;
+mso-bidi-font-family:"B Nazanin";color:#4B4B4B;background:white'>State </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1740;&#1705; &#1588;&#1740;&#1569;
+&#1580;&#1575;&#1608;&#1575; &#1575;&#1587;&#1705;&#1585;&#1740;&#1662;&#1578;
+&#1575;&#1587;&#1578; &#1705;&#1607; &#1583;&#1575;&#1583;&#1607;&#8204;&#1607;&#1575;&#1740;
+&#1583;&#1740;&#1606;&#1575;&#1605;&#1740;&#1705;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1585;&#1575; &#1606;&#1711;&#1607;&#8204;&#1583;&#1575;&#1585;&#1740;
+&#1605;&#1740;&#8204;&#1705;&#1606;&#1583; &#1608; &#1570;&#1606;
+&#1585;&#1575; &#1602;&#1575;&#1583;&#1585; &#1605;&#1740;&#8204;&#1587;&#1575;&#1586;&#1583;
+&#1705;&#1607; &#1578;&#1594;&#1740;&#1740;&#1585;&#1575;&#1578;
+&#1576;&#1740;&#1606; &#1585;&#1606;&#1583;&#1585;&#1607;&#1575; &#1585;&#1575;
+&#1585;&#1583;&#1711;&#1740;&#1585;&#1740; &#1705;&#1606;&#1583;.
+&#1575;&#1586; &#1570;&#1606;&#1580;&#1575; &#1705;&#1607;</span><span dir=LTR></span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span> State </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1583;&#1740;&#1606;&#1575;&#1605;&#1740;&#1705;
+&#1575;&#1587;&#1578;&#1548; &#1578;&#1606;&#1607;&#1575; &#1576;&#1607;
+&#1605;&#1606;&#1592;&#1608;&#1585; &#1575;&#1740;&#1580;&#1575;&#1583;
+&#1578;&#1593;&#1575;&#1605;&#1604;&#8204;&#1662;&#1584;&#1740;&#1585;&#1740;
+&#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607; &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;
+&#1608; &#1575;&#1586; &#1575;&#1740;&#1606; &#1585;&#1608; &#1583;&#1585;
+&#1605;&#1608;&#1585;&#1583; &#1662;&#1585;&#1608;&#1688;&#1607;&#8204;&#1607;&#1575;&#1740;
+&#1575;&#1587;&#1578;&#1575;&#1578;&#1740;&#1705;</span><span dir=LTR></span><span
+dir=LTR style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span> React </span><span
+lang=AR-SA style='font-size:13.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:Roboto;mso-hansi-font-family:Roboto;color:#4B4B4B;
+background:white'>&#1705;&#1575;&#1585;&#1576;&#1585;&#1583;&#1740;
+&#1606;&#1583;&#1575;&#1585;&#1583;</span><span dir=LTR></span><span dir=LTR
+style='font-size:13.0pt;line-height:107%;font-family:Roboto;mso-bidi-font-family:
+"B Nazanin";color:#4B4B4B;background:white'><span dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:12.0pt;line-height:107%;font-family:
+"B Nazanin"'>&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;&#8204;&#1607;&#1575;
+&#1576;&#1607; &#1589;&#1608;&#1585;&#1578; &#1705;&#1604;&#1575;&#1587;&#8204;&#1607;&#1575;&#1740;&#1740;
+&#1578;&#1593;&#1585;&#1740;&#1601; &#1605;&#1740;&#8204;&#1588;&#1608;&#1606;&#1583;
+&#1705;&#1607; &#1608;&#1740;&#1688;&#1711;&#1740;&#8204;&#1607;&#1575;&#1740;
+&#1575;&#1590;&#1575;&#1601;&#1740; &#1583;&#1575;&#1585;&#1606;&#1583;</span><span
+dir=LTR></span><span dir=LTR style='font-size:12.0pt;line-height:107%;
+mso-bidi-font-family:"B Nazanin";mso-bidi-language:FA'><span dir=LTR></span>.
+State </span><span lang=AR-SA style='font-size:12.0pt;line-height:107%;
+font-family:"B Nazanin"'>&#1605;&#1581;&#1604;&#1740;
+&#1583;&#1602;&#1740;&#1602;&#1575;&#1611; &#1576;&#1607;
+&#1605;&#1593;&#1606;&#1575;&#1740; &#1740;&#1705;
+&#1608;&#1740;&#1688;&#1711;&#1740; &#1575;&#1587;&#1578; &#1705;&#1607;
+&#1578;&#1606;&#1607;&#1575; &#1583;&#1585; &#1705;&#1604;&#1575;&#1587;&#8204;&#1607;&#1575;
+&#1608;&#1580;&#1608;&#1583; &#1583;&#1575;&#1585;&#1583;</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'><span dir=LTR></span>. State </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin"'>&#1589;&#1585;&#1601;&#1575;&#1611;
+&#1583;&#1585;&#1608;&#1606; &#1705;&#1604;&#1575;&#1587; &#1605;&#1740;&#8204;&#1578;&#1608;&#1575;&#1606;&#1583;
+&#1605;&#1608;&#1585;&#1583; &#1575;&#1587;&#1578;&#1601;&#1575;&#1583;&#1607;
+&#1602;&#1585;&#1575;&#1585; &#1711;&#1740;&#1585;&#1583; &#1608;
+&#1605;&#1593;&#1605;&#1608;&#1604;&#1575;&#1611; &#1578;&#1606;&#1607;&#1575;
+&#1580;&#1575;&#1740;&#1740; &#1575;&#1587;&#1578; &#1705;&#1607; <span
+class=GramE>&#1605;&#1740;&#8204;&#1578;&#1608;&#1575;&#1606;<span dir=LTR></span><span
+dir=LTR style='font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+FA'><span dir=LTR></span> </span><span dir=RTL></span><span style='mso-bidi-language:
+FA'><span dir=RTL></span><span style='mso-spacerun:yes'> </span></span><span
+lang=EN-US dir=LTR style='font-family:"Calibri",sans-serif;mso-ascii-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'>this</span></span></span><span dir=LTR style='font-size:
+12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";mso-bidi-language:
+FA'>.state </span><span dir=RTL></span><span style='font-size:12.0pt;
+line-height:107%;font-family:"B Nazanin";mso-bidi-language:FA'><span dir=RTL></span><span
+style='mso-spacerun:yes'> </span></span><span lang=AR-SA style='font-size:12.0pt;
+line-height:107%;font-family:"B Nazanin"'>&#1585;&#1575; &#1576;&#1607;
+&#1593;&#1606;&#1608;&#1575;&#1606; &#1587;&#1575;&#1586;&#1606;&#1583;&#1607;
+&#1605;&#1591;&#1585;&#1581; &#1705;&#1585;&#1583;</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'><span dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:
+"B Nazanin";mso-bidi-language:FA'>State </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin"'>&#1583;&#1585;&#1608;&#1606;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1605;&#1583;&#1740;&#1585;&#1740;&#1578; &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;&#1548;
+&#1607;&#1605;&#1575;&#1606; &#1591;&#1608;&#1585; &#1705;&#1607;
+&#1605;&#1578;&#1594;&#1740;&#1585;&#1607;&#1575; &#1583;&#1585;&#1608;&#1606;
+&#1740;&#1705; &#1578;&#1575;&#1576;&#1593; &#1575;&#1593;&#1604;&#1575;&#1606;
+&#1605;&#1740;&#8204;&#1588;&#1608;&#1606;&#1583;</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'><span dir=LTR></span>. State </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin"'>&#1583;&#1585;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'><span dir=LTR></span> React </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin"'>&#1583;&#1585;
+&#1608;&#1575;&#1602;&#1593; &#1581;&#1575;&#1604;&#1578;
+&#1605;&#1581;&#1604;&#1740; &#1582;&#1608;&#1583;&#1588;
+&#1575;&#1587;&#1578;&#1548; &#1740;&#1593;&#1606;&#1740;
+&#1581;&#1575;&#1604;&#1578; &#1606;&#1605;&#1740;&#8204;&#1578;&#1608;&#1575;&#1606;&#1583;
+&#1582;&#1575;&#1585;&#1580; &#1575;&#1586;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1605;&#1608;&#1585;&#1583; &#1583;&#1587;&#1578;&#1585;&#1587;&#1740;
+&#1740;&#1575; &#1578;&#1594;&#1740;&#1740;&#1585; &#1602;&#1585;&#1575;&#1585;
+&#1711;&#1740;&#1585;&#1583; &#1608; &#1578;&#1606;&#1607;&#1575;
+&#1583;&#1585;&#1608;&#1606; &#1570;&#1606;
+&#1705;&#1575;&#1585;&#1576;&#1585;&#1583; &#1583;&#1575;&#1585;&#1583;.
+&#1575;&#1740;&#1606; &#1608;&#1590;&#1593;&#1740;&#1578;
+&#1588;&#1576;&#1740;&#1607; &#1578;&#1575;&#1576;&#1593;&#1740;
+&#1575;&#1587;&#1578; &#1705;&#1607; &#1581;&#1740;&#1591;&#1607;
+&#1605;&#1581;&#1604;&#1740; &#1582;&#1608;&#1583; &#1585;&#1575;
+&#1583;&#1575;&#1585;&#1583;</span><span dir=LTR></span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:"B Nazanin";
+mso-bidi-language:FA'><span dir=LTR></span>.</span><span lang=FA
+style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin";mso-bidi-language:
+FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin";
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin";
+mso-bidi-language:FA'>&#1605;&#1606;&#1575;&#1576;&#1593;:<o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://www.w3schools.com/react/react_components.asp"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://www.w3schools.com/react/react_components.asp</span></a><span
+lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://virgool.io/@learnreact/components-and-props-in-react-js-wmstoeae2317"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://virgool.io/@learnreact/components-and-props-in-react-js-wmstoeae2317</span></a><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><a
+href="https://sabzlearn.ir/what-is-component/#kampwnnt_dr_ry_akt"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://sabzlearn.ir/what-is-component/#kampwnnt_dr_ry_akt</span></a><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=FA dir=RTL style='font-size:12.0pt;line-height:
+107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=FA dir=RTL style='font-size:12.0pt;line-height:
+107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center dir=RTL style='text-align:center;direction:
+rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:12.0pt;line-height:
+107%;font-family:"B Nazanin";mso-ascii-font-family:"B Nazanin"'>&#1670;&#1607; &#1605;&#1608;&#1575;&#1585;&#1583;&#1740;
+&#1576;&#1575;&#1593;&#1578;</span><span dir=LTR></span><span lang=AR-SA
+dir=LTR style='font-size:12.0pt;line-height:107%;font-family:"B Nazanin";
+mso-ascii-font-family:"B Nazanin"'><span dir=LTR></span> </span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>re-render
+</span><span lang=AR-SA style='font-size:12.0pt;line-height:107%;font-family:
+"B Nazanin";mso-ascii-font-family:"B Nazanin"'>&#1588;&#1583;&#1606; &#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1605;&#1740;&#1588;&#1608;&#1583;&#1567;</span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'>&#1576;&#1607; &#1591;&#1608;&#1585;
+&#1705;&#1604;&#1740; </span><span dir=LTR style='font-size:12.0pt;line-height:
+107%;mso-bidi-language:FA'>re-render</span><span dir=RTL></span><span lang=FA
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><span dir=RTL></span> &#1605;&#1605;&#1705;&#1606;
+&#1575;&#1587;&#1578; &#1576;&#1607; &#1583;&#1604;&#1575;&#1740;&#1604;
+&#1586;&#1740;&#1585; &#1575;&#1580;&#1585;&#1575; &#1588;&#1608;&#1583;:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l1 level1 lfo2;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>1-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1576;&#1607;
+&#1585;&#1608;&#1586;&#1585;&#1587;&#1575;&#1606;&#1740; &#1583;&#1585; </span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>state<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l1 level1 lfo2;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>2-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1576;&#1607;
+&#1585;&#1608;&#1586;&#1585;&#1587;&#1575;&#1606;&#1740; &#1583;&#1585; </span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>prop<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l1 level1 lfo2;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>3-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1585;&#1606;&#1583;&#1585;
+&#1605;&#1580;&#1583;&#1583;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1608;&#1575;&#1604;&#1583;<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=AR-SA style='font-size:12.0pt;line-height:107%;font-family:
+"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
+minor-bidi'>&#1576;&#1740;&#1575;&#1740;&#1740;&#1583; &#1576;&#1575;
+&#1580;&#1586;&#1574;&#1740;&#1575;&#1578;
+&#1576;&#1576;&#1740;&#1606;&#1740;&#1605; &#1705;&#1607; &#1670;&#1585;&#1575;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;&#8204;&#1607;&#1575;
+&#1583;&#1608;&#1576;&#1575;&#1585;&#1607; &#1585;&#1606;&#1583;&#1585;
+&#1605;&#1740;&#8204;&#1588;&#1608;&#1606;&#1583; &#1608;
+&#1670;&#1711;&#1608;&#1606;&#1607; &#1575;&#1586; &#1585;&#1606;&#1583;&#1585;
+&#1605;&#1580;&#1583;&#1583;
+&#1606;&#1575;&#1582;&#1608;&#1575;&#1587;&#1578;&#1607;
+&#1576;&#1585;&#1575;&#1740; &#1576;&#1607;&#1740;&#1606;&#1607;&#8204;&#1587;&#1575;&#1586;&#1740;
+&#1575;&#1580;&#1586;&#1575;&#1740; &#1576;&#1585;&#1606;&#1575;&#1605;&#1607;
+&#1580;&#1604;&#1608;&#1711;&#1740;&#1585;&#1740; &#1705;&#1606;&#1740;&#1605;</span><span
+dir=LTR></span><span dir=LTR style='font-size:12.0pt;line-height:107%;
+mso-bidi-language:FA'><span dir=LTR></span>.</span><span lang=FA
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l2 level1 lfo4;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>1-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1576;&#1607;
+&#1585;&#1608;&#1586;&#1585;&#1587;&#1575;&#1606;&#1740; &#1583;&#1585; </span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>state</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span> : &#1578;&#1594;&#1740;&#1740;&#1585;
+</span><span dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'>state</span><span dir=RTL></span><span lang=FA style='font-size:12.0pt;
+line-height:107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1605;&#1740;&#1578;&#1608;&#1575;&#1606;&#1583; &#1576;&#1607;
+&#1582;&#1575;&#1591;&#1585; &#1578;&#1594;&#1740;&#1740;&#1585; &#1583;&#1585;
+</span><span dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'>prop</span><span dir=RTL></span><span lang=FA style='font-size:12.0pt;
+line-height:107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1608; &#1740;&#1575; </span><span dir=LTR style='font-size:12.0pt;line-height:
+107%;mso-bidi-language:FA'>setState</span><span dir=RTL></span><span lang=FA
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><span dir=RTL></span> &#1576;&#1585;&#1575;&#1740;
+&#1576;&#1607; &#1585;&#1608;&#1586; &#1585;&#1587;&#1575;&#1606;&#1740;
+&#1740;&#1705; &#1605;&#1578;&#1594;&#1740;&#1585;
+&#1576;&#1575;&#1588;&#1583;.
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1576;&#1607;&#8204;&#1585;&#1608;&#1586;
+&#1585;&#1587;&#1575;&#1606;&#1740; &#1585;&#1575;
+&#1583;&#1585;&#1740;&#1575;&#1601;&#1578; &#1605;&#1740;&#8204;&#1705;&#1606;&#1583;
+&#1608; </span><span dir=LTR style='font-size:12.0pt;line-height:107%;
+mso-bidi-language:FA'>React</span><span dir=RTL></span><span lang=FA
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><span dir=RTL></span> &#1576;&#1575;
+&#1585;&#1606;&#1583;&#1585; &#1605;&#1580;&#1583;&#1583;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;&#1548;
+&#1578;&#1594;&#1740;&#1740;&#1585; &#1585;&#1575; &#1583;&#1585;
+&#1576;&#1585;&#1606;&#1575;&#1605;&#1607; &#1605;&#1606;&#1593;&#1705;&#1587;
+&#1605;&#1740;&#8204;&#1705;&#1606;&#1583;.</span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l2 level1 lfo4;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>2-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1576;&#1607;
+&#1585;&#1608;&#1586;&#1585;&#1587;&#1575;&#1606;&#1740; &#1583;&#1585; </span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>prop</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span> :
+&#1576;&#1607; &#1607;&#1605;&#1740;&#1606; &#1578;&#1585;&#1578;&#1740;&#1576;
+&#1548; &#1578;&#1594;&#1740;&#1740;&#1585; &#1583;&#1585; </span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>prop</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1576;&#1575;&#1593;&#1579; &#1578;&#1594;&#1740;&#1740;&#1585; &#1583;&#1585;
+</span><span dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'>state</span><span dir=RTL></span><span lang=FA style='font-size:12.0pt;
+line-height:107%;font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1608; &#1578;&#1594;&#1740;&#1740;&#1585; </span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>state</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1576;&#1575;&#1593;&#1579; &#1585;&#1606;&#1583;&#1585;
+&#1583;&#1608;&#1576;&#1575;&#1585;&#1607;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1578;&#1608;&#1587;&#1591; </span><span dir=LTR style='font-size:12.0pt;
+line-height:107%;mso-bidi-language:FA'>React</span><span dir=RTL></span><span
+lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><span dir=RTL></span> &#1605;&#1740;&#8204;&#1588;&#1608;&#1583;.</span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast dir=RTL style='margin-top:0in;margin-right:
+.5in;margin-bottom:8.0pt;margin-left:0in;mso-add-space:auto;text-align:justify;
+text-indent:-.25in;mso-list:l2 level1 lfo4;direction:rtl;unicode-bidi:embed'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-bidi-language:FA'><span style='mso-list:
+Ignore'>3-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'>&#1585;&#1606;&#1583;&#1585;
+&#1605;&#1580;&#1583;&#1583;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;
+&#1608;&#1575;&#1604;&#1583; : &#1607;&#1585;&#1586;&#1605;&#1575;&#1606;
+&#1705;&#1607; &#1578;&#1575;&#1576;&#1593; &#1585;&#1606;&#1583;&#1585;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578;&#8204;&#1607;&#1575;
+&#1575;&#1580;&#1585;&#1575; &#1588;&#1608;&#1583;&#1548;
+&#1578;&#1605;&#1575;&#1605;&#1740;
+&#1705;&#1575;&#1605;&#1662;&#1608;&#1606;&#1606;&#1578; &#1607;&#1575;&#1740;
+&#1601;&#1585;&#1586;&#1606;&#1583; &#1570;&#1606; </span><span dir=LTR
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>re-render</span><span
+dir=RTL></span><span lang=FA style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-theme-font:minor-bidi;mso-bidi-language:FA'><span dir=RTL></span>
+&#1582;&#1608;&#1575;&#1607;&#1583; &#1588;&#1583;. </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi'>&#1589;&#1585;&#1601;
+&#1606;&#1592;&#1585; &#1575;&#1586; &#1575;&#1740;&#1606;&#1705;&#1607;
+&#1570;&#1740;&#1575; </span><span dir=LTR></span><span dir=LTR
+style='font-size:12.0pt;line-height:107%'><span dir=LTR></span><span
+style='mso-spacerun:yes'> </span>prop</span><span lang=AR-SA style='font-size:
+12.0pt;line-height:107%;font-family:"Arial",sans-serif;mso-ascii-font-family:
+Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi'>&#1570;&#1606;&#1607;&#1575;
+&#1578;&#1594;&#1740;&#1740;&#1585; &#1705;&#1585;&#1583;&#1607;
+&#1575;&#1587;&#1578; &#1740;&#1575; &#1582;&#1740;&#1585;</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'><span
+dir=LTR></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span dir=LTR style='font-size:12.0pt;line-height:107%;mso-bidi-language:
+FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'>&#1605;&#1606;&#1575;&#1576;&#1593;:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><a
+href="https://www.geeksforgeeks.org/re-rendering-components-in-reactjs/"><span
+style='font-size:12.0pt;line-height:107%;mso-bidi-language:FA'>https://www.geeksforgeeks.org/re-rendering-components-in-reactjs</span><span
+dir=RTL></span><span lang=FA dir=RTL style='font-size:12.0pt;line-height:107%;
+font-family:"Arial",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
+minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
+mso-bidi-language:FA'><span dir=RTL></span>/</span></a><span lang=FA dir=RTL
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-language:FA'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=FA dir=RTL
+style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;direction:rtl;unicode-bidi:
+embed'><span lang=FA style='font-size:12.0pt;line-height:107%;font-family:"Arial",sans-serif;
+mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
+Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-bidi;
+mso-bidi-language:FA'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
